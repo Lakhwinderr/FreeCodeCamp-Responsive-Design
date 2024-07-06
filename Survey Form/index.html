@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label>Name <input type="text" id="name" /></label>
+        <label>Email<input type="email" id="email" /></label>
+        <label
+          >Age <span>(optional)</span
+          ><input type="number" id="age" min="10" max="100" placeholder="Age"
+        /></label>
+        <label for="role"
+          >Which option best describes your current role?
+          <select id="role">
+            <option value="0">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>What would you like to see improved?</legend>
+        <label><input type="checkbox" name="improvement" /> Front-end Projects</label
+        ><label><input type="checkbox" name="improvement" /> Back-end Projects</label
+        ><label><input type="checkbox" name="improvement" /> Data Visualization</label
+        ><label><input type="checkbox" name="improvement" /> Challenges</label
+        ><label><input type="checkbox" name="improvement" /> Open Source Community</label
+        ><label><input type="checkbox" name="improvement" /> Gitter help rooms</label
+        ><label><input type="checkbox" name="improvement" /> Videos</label
+        ><label><input type="checkbox" name="improvement" /> City Meetups</label
+        ><label><input type="checkbox" name="improvement" /> Wiki</label
+        ><label><input type="checkbox" name="improvement" /> Forum</label
+        ><label><input type="checkbox" name="improvement" /> Additional Courses</label>
+      </fieldset>
+      <fieldset>
+        <legend>Any comments or suggestions?</legend>
+        <textarea name="" id="" rows="6" cols="30"></textarea>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
