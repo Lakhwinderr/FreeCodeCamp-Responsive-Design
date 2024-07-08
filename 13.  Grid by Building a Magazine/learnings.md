@@ -18,3 +18,13 @@ i element and use of fontawesome icons
 ![alt text](image-7.png)
 - grid-auto-flow
 ![alt text](image-8.png)
+- grid-auto-columns
+![alt text](image-9.png)
+- column-width property
+![alt text](image-10.png)
+![alt text](image-11.png)
+- list-style-type for list element
+- gap for grid
+![alt text](image-12.png)
+- place-items in grid
+![alt text](image-13.png)
